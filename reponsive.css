@@ -66,9 +66,6 @@
 /* tab responsive */
 
 @media only screen and (min-width: 577px) and (max-width:900px) {
-    body {
-        background-color: aquamarine;
-    }
 
     .nav-section {
         justify-content: space-around;
