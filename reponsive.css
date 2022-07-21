@@ -1,0 +1,144 @@
+@media only screen and (max-width: 576px) {
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .header-title h1 {
+        margin-bottom: 50px;
+    }
+
+    #top-banner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .half-width {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .half-width img {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .article-blog {
+        width: 100%;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .half-width h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .company {
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        width: 400px;
+    }
+
+    .card-img img {
+        width: 350px;
+    }
+
+    #feature {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+
+    .feature-blogs {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* tab responsive */
+
+@media only screen and (min-width: 577px) and (max-width:900px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .nav-section {
+        justify-content: space-around;
+    }
+
+    .header-title h1 {
+        font-size: 22px;
+    }
+
+    .navbar ul li {
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+
+    #top-banner {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .half-width h1 {
+        font-size: 40px;
+    }
+
+    .article-blog {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .company {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .card {
+        width: 270px;
+        height: auto;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding: 10px;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    /* .article-detail {
+        padding-left: 10px;
+    } */
+
+    #feature {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+
+    .feature-blogs {
+        margin-bottom: 50px;
+    }
+}

@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -68,7 +68,10 @@ main {
 
 .article-blog {
     padding-left: 110px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .half-width img {
     padding-left: 30px;
@@ -129,7 +132,6 @@ main {
 
 .company img {
     margin: 0 30px;
-    align-items: center;
 }
 
 /* Popular card section style */
@@ -196,6 +198,8 @@ main {
 /* feature section style*/
 
 #feature {
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
